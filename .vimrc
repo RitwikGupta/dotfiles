@@ -14,6 +14,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -52,6 +53,9 @@ set tabstop=4
 set shiftwidth=4
 set smartindent
 
+" Fix backspace
+set backspace=indent,eol,start
+
 " Set the current line to be highlighted/underlined
 set cursorline
 
@@ -62,3 +66,6 @@ set showmatch
 set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline_theme='solarized'
+
+" YCM
+let g:ycm_global_ycm_extra_conf = '~/.ycm_global_ycm_extra_conf'
