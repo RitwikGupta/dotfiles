@@ -29,11 +29,16 @@ values."
      git
      ;; markdown
      ;; org
+     ranger
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
      ;; spell-checking
      syntax-checking
+     themes-megapack
+     (c-c++ :variables
+            c-c++-default-mode-for-headers 'c++-mode
+            c-c++-enable-clang-support t)
      ;; version-control
      )
    ;; List of additional packages that will be installed without being
@@ -254,6 +259,14 @@ you should place you code here."
     (interactive "sbuffer name: ")
     (term "/bin/zsh")
     (rename-buffer buffer-name t))
+
+  (global-linum-mode)
+
+  (setq redisplay-dont-pause t
+        scroll-margin 1
+        scroll-step 1
+        scroll-conservatively 10000
+        scroll-preserve-screen-position 1)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
