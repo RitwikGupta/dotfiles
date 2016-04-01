@@ -35,7 +35,7 @@ values."
             shell-default-position 'bottom)
      ;; spell-checking
      syntax-checking
-     ;; themes-megapack
+     ;; themes-megapack ;;
      (c-c++ :variables
             c-c++-default-mode-for-headers 'c++-mode
             c-c++-enable-clang-support t)
