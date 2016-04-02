@@ -35,7 +35,7 @@ values."
             shell-default-position 'bottom)
      ;; spell-checking
      syntax-checking
-     ;; themes-megapack ;;
+     ;; themes-megapack
      (c-c++ :variables
             c-c++-default-mode-for-headers 'c++-mode
             c-c++-enable-clang-support t)
@@ -111,8 +111,8 @@ values."
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font. `powerline-scale' allows to quickly tweak the mode-line
    ;; size to make separators look not too crappy.
-   dotspacemacs-default-font '("Droid Sans Mono for Powerline"
-                               :size 16
+   dotspacemacs-default-font '("Droid Sans Mono"
+                               :size 14
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
