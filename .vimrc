@@ -1,4 +1,5 @@
 set nocompatible              " be iMproved, required
+set hidden
 filetype off                  " required
 
 set t_Co=16
