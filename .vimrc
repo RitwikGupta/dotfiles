@@ -16,9 +16,13 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'tpope/vim-fugitive'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'rcmdnk/vim-markdown'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'roxma/vim-paste-easy'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'jreybert/vimagit'
 Bundle 'klen/python-mode'
 Bundle 'Valloric/YouCompleteMe'
 
@@ -81,7 +85,7 @@ imap <M-Down> <ESC><c-w>j
 " AIRLINE
 set laststatus=2
 let g:airline_powerline_fonts = 1
-let g:airline_theme='solarized'
+let g:airline_theme='monochrome'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_buffers = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
